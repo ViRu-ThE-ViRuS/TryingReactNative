@@ -9,9 +9,18 @@ export default class ProfileScreen extends Component {
     render() {
         user = this.props.navigation.state.params.userProfile;
         return (
-            <View>
+            <View style={styles.container}>
                 <Text>{user.name.first} {user.name.last}</Text>
             </View>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: 'gray',
+        marginLeft: 15,
+        marginRight: 15,
+        marginTop: 15,
+    }
+})
