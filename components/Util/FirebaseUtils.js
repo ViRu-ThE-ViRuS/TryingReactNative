@@ -1,3 +1,5 @@
+import firebaseApp from './FirebaseUtils_Local';
+
 export default FirebaseTest = (user) => {
-    alert(user.email);
+    alert('Hello from firebase');
 }

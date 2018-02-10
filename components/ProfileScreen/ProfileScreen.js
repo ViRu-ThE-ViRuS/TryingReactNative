@@ -5,7 +5,8 @@ import FirebaseTest from './../Util/FirebaseUtils'
 
 export default class ProfileScreen extends Component {
     static navigationOptions = {
-        title: 'Profile'
+        title: 'Profile',
+        headerTintColor: '#000'
     }
 
     notifyOnFirebase(user) {
