@@ -2,6 +2,7 @@
   "name": "AwesomeProject",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/ViRu-ThE-ViRuS/TryingReactNative",
   "devDependencies": {
     "react-native-scripts": "1.11.1",
     "jest-expo": "25.0.0",
