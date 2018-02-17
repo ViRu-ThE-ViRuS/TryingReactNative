@@ -1,4 +1,7 @@
-import firebaseApp from './FirebaseUtils_Local';
+try {
+    const firebaseApp = require('./FirebaseUtils_Local');
+} catch (err) { }
+
 import firebase from 'firebase/app';
 
 var notificationDB = firebase.database().ref('notifications');
